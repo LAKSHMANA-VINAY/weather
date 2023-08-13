@@ -10,13 +10,17 @@ Backend Implementation:
 Spring Boot Setup:
 
 1)Downloaded Spring Initializer with Maven, Java 17, and essential dependencies.
+
 2)Included 'spring-web' dependency for building RESTful APIs and using Spring MVC.
+
 3)Configured the default Tomcat server for serving requests.
 
 Controller:
 
 1)Created a controller package 'com.weather.controller'.
+
 2)Implemented a controller with 'GetMapping' annotation to handle GET requests.
+
 3)Utilized 'CrossOrigin' annotation to enable cross-origin requests, connecting the frontend and backend.
 
 Service Layer:
@@ -28,11 +32,17 @@ Service Layer:
 Request Flow:
 
 1)User sends a location input through the ReactJS frontend.
+
 2)Spring Boot's DispatcherServlet intercepts the request.
+
 3)HandlerMapping identifies the 'GetMapping' annotation and forwards the request to the appropriate controller.
+
 4)Controller processes the request and interacts with the service layer.
+
 5)Service layer utilizes 'okhttp3' to retrieve weather information from the OpenWeatherMap.
+
 6)Weather details are passed back through the service layer to the controller.
+
 7)Controller returns the weather information as a response to the user's request.
 
 Frontend Implementation:
