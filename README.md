@@ -10,7 +10,9 @@ Backend Implementation:
 Spring Boot Setup:
 
 1)Downloaded Spring Initializer with Maven, Java 17, and essential dependencies.
+
 2)Included 'spring-web' dependency for building RESTful APIs and using Spring MVC.
+
 3)Configured the default Tomcat server for serving requests.
 
 Controller:
