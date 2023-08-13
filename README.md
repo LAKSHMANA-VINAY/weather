@@ -26,7 +26,9 @@ Controller:
 Service Layer:
 
 1)Established a service package 'com.weather.service'.
+
 2)Developed a service class responsible for fetching weather data from external sources.
+
 3)Utilized the 'okhttp3' library to perform API calls to the OpenWeatherMap, retrieving weather details for a given location.
 
 Request Flow:
